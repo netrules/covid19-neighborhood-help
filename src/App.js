@@ -63,7 +63,7 @@ class HelloFirebase extends React.Component {
   constructor(){
     super();
     this.state = {
-      speed:10
+      speed:11
     }
   }
 
