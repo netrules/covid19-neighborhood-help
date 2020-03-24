@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -6,7 +6,23 @@ import {
   Link
 } from "react-router-dom";
 
+import * as firebase from 'firebase';
+const config = {
+  apiKey: "AIzaSyDLRtZ9MWzqYCeTwfWjc3pFzD9-P2HSq2s",
+  authDomain: "covid-19-neighborhood-help.firebaseapp.com",
+  databaseURL: "https://covid-19-neighborhood-help.firebaseio.com",
+  projectId: "covid-19-neighborhood-help",
+  storageBucket: "covid-19-neighborhood-help.appspot.com",
+  messagingSenderId: "926958898978",
+  appId: "1:926958898978:web:8bc4070b5e6fd445fcdf7b"
+}
+firebase.initializeApp(config);
+
+
+
 export default function App() {
+
+
   return (
     <Router>
       <div>
@@ -42,6 +58,31 @@ export default function App() {
   );
 }
 
+
+class HelloFirebase extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+      speed:10
+    }
+  }
+
+  componentDidMount() {
+    const rootRef = firebase.database().ref().child('react');
+    const speedRef = rootRef.child('speed');
+    speedRef.on('value', snap => {
+      this.setState({
+        speed.snap.val()
+      });
+    });
+  }
+
+  render() {
+    return <h1>Hello, {this.state.speed}</h1>;
+  }
+}
+
+
 function Home() {
   return <h2>Home</h2>;
 }
@@ -51,5 +92,10 @@ function About() {
 }
 
 function Users() {
-  return <h2>Users</h2>;
+  return (
+    <div>
+    <h2>Users</h2> 
+    <HelloFirebase />
+    </div>
+    );
 }
