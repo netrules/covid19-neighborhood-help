@@ -19,7 +19,7 @@ export default function App() {
               <Link to="/about">Request</Link>
             </li>
             <li>
-              <Link to="/users">Volunteer</Link>
+              <Link to="/users">Users</Link>
             </li>
           </ul>
         </nav>
