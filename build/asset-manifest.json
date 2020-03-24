@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.4f4a69a4.chunk.js",
-    "main.js.map": "/static/js/main.4f4a69a4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f8c5b4be.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f8c5b4be.js.map",
-    "static/js/2.a430f49c.chunk.js": "/static/js/2.a430f49c.chunk.js",
-    "static/js/2.a430f49c.chunk.js.map": "/static/js/2.a430f49c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a6c522ff242ab9465073ffb9aae702c8.js": "/precache-manifest.a6c522ff242ab9465073ffb9aae702c8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.a430f49c.chunk.js.LICENSE.txt": "/static/js/2.a430f49c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/covid19-neighborhood-help/static/css/main.5f361e03.chunk.css",
+    "main.js": "/covid19-neighborhood-help/static/js/main.29bef0d1.chunk.js",
+    "main.js.map": "/covid19-neighborhood-help/static/js/main.29bef0d1.chunk.js.map",
+    "runtime-main.js": "/covid19-neighborhood-help/static/js/runtime-main.ab59e0f3.js",
+    "runtime-main.js.map": "/covid19-neighborhood-help/static/js/runtime-main.ab59e0f3.js.map",
+    "static/js/2.a430f49c.chunk.js": "/covid19-neighborhood-help/static/js/2.a430f49c.chunk.js",
+    "static/js/2.a430f49c.chunk.js.map": "/covid19-neighborhood-help/static/js/2.a430f49c.chunk.js.map",
+    "index.html": "/covid19-neighborhood-help/index.html",
+    "precache-manifest.86ee009c5b3d740a5e3a60b342a29220.js": "/covid19-neighborhood-help/precache-manifest.86ee009c5b3d740a5e3a60b342a29220.js",
+    "service-worker.js": "/covid19-neighborhood-help/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/covid19-neighborhood-help/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a430f49c.chunk.js.LICENSE.txt": "/covid19-neighborhood-help/static/js/2.a430f49c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/covid19-neighborhood-help/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f8c5b4be.js",
+    "static/js/runtime-main.ab59e0f3.js",
     "static/js/2.a430f49c.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.4f4a69a4.chunk.js"
+    "static/js/main.29bef0d1.chunk.js"
   ]
 }
