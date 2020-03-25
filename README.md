@@ -17,15 +17,15 @@ http://brandonbrule.com/codevid/request-volunteer-app.png
 ## GETTING STARTED
 Requirements: Node, Git.
 
-git clone https://github.com/brandonbrule/covid19-neighborhood-help.git
+git clone https://github.com/brandonbrule/covid19-neighborhood-help.git  
 npm install
 
 ### Development
 npm run start
 
 ### Deploy
-commit and push to master branch
-npm run deploy
+commit and push to master branch  
+npm run deploy  
 visit https://brandonbrule.github.io/covid19-neighborhood-help/)
 
 
