@@ -63,22 +63,21 @@ class HelloFirebase extends React.Component {
   constructor(){
     super();
     this.state = {
-      speed:10
+      speed:10,
+      response:{}
     }
   }
 
   componentDidMount() {
-    const rootRef = firebase.database().ref().child('react');
-    const speedRef = rootRef.child('speed');
-    speedRef.on('value', snap => {
+    firebase.firestore().collection("requests").doc("request1").onSnapshot(doc => {
       this.setState({
-        speed.snap.val()
+        response: doc.data()
       });
-    });
+    })
   }
 
   render() {
-    return <h1>Hello, {this.state.speed}</h1>;
+    return <h1>Hello, {this.state.response.email}</h1>;
   }
 }
 
