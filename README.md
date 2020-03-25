@@ -8,10 +8,10 @@ https://findcollabs.com/project/covid-19-neighborhood-helper-H30gdvvaiv6Md6a7F10
 https://join.slack.com/t/covidneighbor-ljq3510/shared_invite/zt-d0b90miv-kGVByFPpaXlMWuGnATbwpQ(https://join.slack.com/t/covidneighbor-ljq3510/shared_invite/zt-d0b90miv-kGVByFPpaXlMWuGnATbwpQ)
 
 ## Latest Prototype
-![Low Fidelidy Prototype](https://www.figma.com/proto/4gRLsfZxKf0UFWaqraYNf8/Helpr?scaling=min-zoom)
+https://www.figma.com/proto/4gRLsfZxKf0UFWaqraYNf8/Helpr?scaling=min-zoom
 
 ## Longer Term Vision Outline
-![Project outline](http://brandonbrule.com/codevid/request-volunteer-app.png)
+http://brandonbrule.com/codevid/request-volunteer-app.png
 
 
 ## GETTING STARTED
@@ -26,7 +26,6 @@ npm run start
 ### Deploy
 commit and push to master branch
 npm run deploy
-visit ![](https://brandonbrule.github.io/covid19-neighborhood-help/) to see changes.
-
+visit https://brandonbrule.github.io/covid19-neighborhood-help/)
 
 
