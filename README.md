@@ -10,7 +10,7 @@ https://join.slack.com/t/covidneighbor-ljq3510/shared_invite/zt-d0b90miv-kGVByFP
 ## Latest Prototype
 https://www.figma.com/proto/4gRLsfZxKf0UFWaqraYNf8/Helpr?scaling=min-zoom
 
-## Longer Term Vision Outline
+## Initial Wireframes
 http://brandonbrule.com/codevid/request-volunteer-app.png
 
 
