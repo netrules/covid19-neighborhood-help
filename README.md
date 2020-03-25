@@ -26,6 +26,6 @@ npm run start
 ### Deploy
 commit and push to master branch  
 npm run deploy  
-visit https://brandonbrule.github.io/covid19-neighborhood-help/)
+visit https://brandonbrule.github.io/covid19-neighborhood-help/
 
 
