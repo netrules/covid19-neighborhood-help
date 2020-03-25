@@ -7,5 +7,26 @@ https://findcollabs.com/project/covid-19-neighborhood-helper-H30gdvvaiv6Md6a7F10
 ## Join the Slack Channel
 https://join.slack.com/t/covidneighbor-ljq3510/shared_invite/zt-d0b90miv-kGVByFPpaXlMWuGnATbwpQ(https://join.slack.com/t/covidneighbor-ljq3510/shared_invite/zt-d0b90miv-kGVByFPpaXlMWuGnATbwpQ)
 
-## Outline
+## Latest Prototype
+![Low Fidelidy Prototype](https://www.figma.com/proto/4gRLsfZxKf0UFWaqraYNf8/Helpr?scaling=min-zoom)
+
+## Longer Term Vision Outline
 ![Project outline](http://brandonbrule.com/codevid/request-volunteer-app.png)
+
+
+## GETTING STARTED
+Requirements: Node, Git.
+
+git clone https://github.com/brandonbrule/covid19-neighborhood-help.git
+npm install
+
+### Development
+npm run start
+
+### Deploy
+commit and push to master branch
+npm run deploy
+visit ![](https://brandonbrule.github.io/covid19-neighborhood-help/) to see changes.
+
+
+
