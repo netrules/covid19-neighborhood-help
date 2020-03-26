@@ -24,13 +24,19 @@ export class FirebaseSandbox extends React.Component {
   
     componentDidMount() {
 
+      let date = new Date();
+
+
+      let day = firebase.firestore.Timestamp.fromDate(new Date());
 
         let data = {
-            username: 'Brandon',
+            username: 'Timestamp test - BAck to firebase',
             email: 'brandonbrule@gmail.com',
+            location_geo: null,
             location_description: 'Ottawa',
             message: 'I need milk please',
-            phone: 5555555555
+            phone: 5555555555,
+            time_created: day,
         }
 
         firebase.firestore().collection("requests").add(data);
