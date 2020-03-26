@@ -10,7 +10,6 @@ import {
 
 
 import FirebaseProvider from './context/firebase';
-// import {FirebaseSandbox} from './components/firebase-sandbox';
 import {RequesterPage} from './components/requester/requester-page';
 import {VolunteerPage} from './components/volunteer/volunteer-page';
 
@@ -23,18 +22,6 @@ export default function App() {
     <FirebaseProvider>
     <Router>
       <div>
-        <nav className="debug-nav">
-          <ul>
-            <li><Link to="/firebase-sandbox">Firebox Sandbox</Link></li>
-          </ul>
-        </nav>
-
-        {/* <FirebaseSandbox /> */}
-
-        {/* <FirebaseSandbox /> */}
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/request">
             <RequesterPage />
@@ -47,11 +34,6 @@ export default function App() {
           <Route path="/">
             <Home />
           </Route>
-
-          <Route path="/firebase-sandbox">
-            {/* <FirebaseSandbox /> */}
-          </Route>
-
 
         </Switch>
       </div>
