@@ -9,8 +9,8 @@ import {
 } from "react-router-dom";
 
 
-
-import {FirebaseSandbox} from './components/firebase-sandbox';
+import FirebaseProvider from './context/firebase';
+// import {FirebaseSandbox} from './components/firebase-sandbox';
 import {RequesterPage} from './components/requester/requester-page';
 import {VolunteerPage} from './components/volunteer/volunteer-page';
 
@@ -20,6 +20,7 @@ export default function App() {
 
 
   return (
+    <FirebaseProvider>
     <Router>
       <div>
         <nav className="debug-nav">
@@ -30,7 +31,7 @@ export default function App() {
 
         {/* <FirebaseSandbox /> */}
 
-        <FirebaseSandbox />
+        {/* <FirebaseSandbox /> */}
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -48,13 +49,14 @@ export default function App() {
           </Route>
 
           <Route path="/firebase-sandbox">
-            <FirebaseSandbox />
+            {/* <FirebaseSandbox /> */}
           </Route>
 
 
         </Switch>
       </div>
     </Router>
+    </FirebaseProvider>
   );
 }
 

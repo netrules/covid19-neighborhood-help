@@ -39,17 +39,17 @@ export class FirebaseSandbox extends React.Component {
             time_created: day,
         }
 
-        firebase.firestore().collection("requests").add(data);
+        //firebase.firestore().collection("requests").add(data);
 
 
 
 
 
-      firebase.firestore().collection("requests").doc("request1").onSnapshot(doc => {
-        this.setState({
-          response: doc.data()
-        });
-      })
+      // firebase.firestore().collection("requests").doc("request1").onSnapshot(doc => {
+      //   this.setState({
+      //     response: doc.data()
+      //   });
+      // })
 
 
     }
@@ -57,7 +57,7 @@ export class FirebaseSandbox extends React.Component {
     render() {
       return (
     <React.Fragment>
-      <h1>Hello, {this.state.response.email}</h1>
+      {/* <h1>Hello, {this.state.response.email}</h1> */}
       <h2>test</h2>
       </React.Fragment>
       );
