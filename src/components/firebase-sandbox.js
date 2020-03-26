@@ -13,6 +13,7 @@ firebase.initializeApp(config);
 
 
 // Firebase Testing
+
 export class FirebaseSandbox extends React.Component {
     constructor(){
       super();
@@ -22,14 +23,37 @@ export class FirebaseSandbox extends React.Component {
     }
   
     componentDidMount() {
+
+
+        let data = {
+            username: 'Brandon',
+            email: 'brandonbrule@gmail.com',
+            location_description: 'Ottawa',
+            message: 'I need milk please',
+            phone: 5555555555
+        }
+
+        firebase.firestore().collection("requests").add(data);
+
+
+
+
+
       firebase.firestore().collection("requests").doc("request1").onSnapshot(doc => {
         this.setState({
           response: doc.data()
         });
       })
+
+
     }
   
     render() {
-      return <h1>Hello, {this.state.response.email}</h1>;
+      return (
+    <React.Fragment>
+      <h1>Hello, {this.state.response.email}</h1>
+      <h2>test</h2>
+      </React.Fragment>
+      );
     }
   }

@@ -30,6 +30,8 @@ export default function App() {
 
         {/* <FirebaseSandbox /> */}
 
+        <FirebaseSandbox />
+
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
