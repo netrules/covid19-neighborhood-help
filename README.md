@@ -1,3 +1,7 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/brandonbrule/covid19-neighborhood-help) 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=netrules_covid19-neighborhood-help&metric=alert_status)](https://sonarcloud.io/dashboard?id=netrules_covid19-neighborhood-help)
+[![Known Vulnerabilities](https://snyk.io/test/github/netrules/covid19-neighborhood-help/badge.svg)](https://snyk.io/test/github/netrules/covid19-neighborhood-help)
+
 # Covid Neighborhood Help
 Connecting people who need help with those who can help nearby.
 
